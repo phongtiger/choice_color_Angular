@@ -1,0 +1,7 @@
+<div>
+  <label >Chon mau</label>
+  <input [value]="background" type="color" (change)="onChange($event.target.value)"/>
+</div>
+
+<p>Out put</p>
+<div class="color-preview" [style.background]="background"></div>
